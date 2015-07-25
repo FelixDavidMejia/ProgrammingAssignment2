@@ -1,3 +1,9 @@
+#This program may be run in order to test some use cases of the makeCacheMatrix function.
+#It tests the function with:
+# 1. A non singular matrix
+# 2. A singular matrix
+# 3. A non square matrix
+
 #Creating test matrixes
 squarematrix <- matrix(c(1,1,1,3,4,3,3,3,4), nrow=3, ncol=3) #this matrix is the initial data to be passed to the makeCacheMatrix function
 anothersquarematrix <- matrix(c(1,0,5,2,1,6,3,4,0), nrow=3, ncol=3) #this matrix is the initial data to be passed to the makeCacheMatrix function
